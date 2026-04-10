@@ -43,7 +43,7 @@ float mapearEstrutura(Pasta *p, int nivel, int limiteNivel) {
     // Alerta
     if (soma > LIMITE) {
         for (int i = 0; i < nivel; i++) printf("  ");
-        printf("⚠ ALERTA: %s excede %.2f GB (Total: %.2f GB)\n", p->nome, LIMITE, soma);
+        printf("ALERTA: %s excede %.2f GB (Total: %.2f GB)\n", p->nome, LIMITE, soma);
     }
 
     return soma;
